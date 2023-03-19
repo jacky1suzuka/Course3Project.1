@@ -11,8 +11,11 @@ public class FirstController {
         return "hello!";
     }
 
-//    @GetMapping("/info")
-//    public String info() {
-//
-//    }
+    @GetMapping("/info")
+    public String info() {
+        return "Имя ученика : Евгений" + "<br>" +
+                "Название проекта: MyApp" + "<br>" +
+                "Дата создания: 17.03.2023" + "<br>" +
+                "Описание проекта: веб-сервис для выбора рецептов";
+    }
 }
